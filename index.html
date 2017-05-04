@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+					
+					<h1 class="text-center">Wikipedia Viewer</h1>
+					<p class="text-center">Search for wikipedia entries easily</p>
+					
+					<form action="#">
+						<div class="form-group">
+							<label for="query" class="sr-only">query to search</label>
+							<div class="input-group">
+								<input type="text" class="form-control" name="query" id="searchInput" placeholder="search ...">
+								<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+								<input type="submit" id="submit" class="sr-only">
+							</div>
+						</div>
+					</form>
+					
+					<a href="https://en.wikipedia.org/wiki/Special:Random" class="random" target="_blank">random article <i class="glyphicon glyphicon-random"></i></a>
+				</div>
+			</div>
+		</div>
+	</header> <!-- end #header -->
+	
+	<section id="content">
+		<div class="container">
+			<!-- articles container -->
+		</div>
+	</section>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
